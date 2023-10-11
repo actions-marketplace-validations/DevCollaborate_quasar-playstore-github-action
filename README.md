@@ -5,7 +5,7 @@ by adding a step to your workflow.
 
 ```yaml
   - name: Quasar Play Store
-    uses: codeeshop-oc/quasar-playstore-github-action@v2
+    uses: codeeshop-oc/quasar-playstore-github-action@v1
     with:
       play_store_credentials_base64: play-store-services.secret
       keystore_base64: my-release-key.keystore
